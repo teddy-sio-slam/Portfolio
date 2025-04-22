@@ -5,6 +5,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
 	integrations: [tailwind()],
+	site : 'https://teddy-sio-slam.github.io/Portfolio/',
+	base : 'Portfolio',
 });
-
-const LIVE_URL = "https://teddy-sio-slam.github.io/Portfolio/";
