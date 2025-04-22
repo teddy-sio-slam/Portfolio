@@ -6,3 +6,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
 	integrations: [tailwind()],
 });
+
+const LIVE_URL = "https://teddy-sio-slam.github.io/Portfolio/";
