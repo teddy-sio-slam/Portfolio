@@ -1,5 +1,10 @@
-import { defineConfig } from 'astro/config'
+import { defineConfig } from "astro/config";
 
+import tailwind from "@astrojs/tailwind";
+
+// https://astro.build/config
 export default defineConfig({
-  site: 'https://teddy-sio-slam.github.io',
+	integrations: [tailwind()],
+	site: 'https://teddy-sio-slam.github.io',
+	base: '/retrograde-remnant/'
 });
