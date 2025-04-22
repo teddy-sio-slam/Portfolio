@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Serveur d'API",
+		"description": "",
+		"image": "/assets/images/projects/fastapi.svg",
+		"url": "https://github.com/xeshing/PPE4"
+	},
+
+	{
+		"name": "DetectionToYaml",
+		"description": "Outil de récupération et de conversion de règles de détection Splunk (SPL) au format YAML",
+		"image": "/assets/images/projects/splunk.jpg",
+		"url": ""
+	}
+]

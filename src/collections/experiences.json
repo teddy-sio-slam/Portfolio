@@ -1,0 +1,23 @@
+[
+	{
+		"dates": "Juillet 2024 · Aujourd'hui",
+		"role": "Analyste/Concepteur en cybersécurité",
+		"company": "La Poste Groupe",
+		"description": "Conception de la détection.",
+		"logo": "/assets/images/experiences/laposte.ico"
+	},
+	{
+		"dates": "Mai 2024 · Juin 2024",
+		"role": "Développeur",
+		"company": "AI DiagMe",
+		"description": "Création de formulaires dans le domaine médical.",
+		"logo": "/assets/images/experiences/aidiagme.ico"
+	},
+	{
+		"dates": "2 ans et 5 mois",
+		"role": "Brigadier-chef",
+		"company": "Gendarmerie Nationale",
+		"description": "Gendarme adjoint volontaire au sein d'une brigade territoriale. Réussite au concours de sous-officier",
+		"logo": "/assets/images/experiences/gd.ico"
+	}
+]

@@ -1,0 +1,70 @@
+---
+import Button from "../components/button.astro";
+import Projects from "../components/home/projects.astro";
+import Separator from "../components/home/separator.astro";
+import Writings from "../components/home/writings.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="Teddy">
+  <div
+    class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
+  >
+    <div class="flex flex-col items-center md:flex-row">
+      <div class="relative w-full md:w-1/2">
+        <h1
+          class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
+        >
+          Hello! Moi c'est Teddy. 👋
+        </h1>
+        <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
+          Je suis étudiant en deuxième année de BTS Services Informatiques aux Organisations.
+          <br
+            class="hidden lg:block"
+          />
+          <br
+          class="hidden lg:block"/>
+          Option Solutions Logicielles et Applications Métiers (SLAM).
+        </p>
+        <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
+          Mes compétences sont diverses:
+        </p>
+        <ul
+          class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
+        >
+          <li>Python/Flask</li>
+          <li>Bug Bounty</li>
+          <li>Cybersécurité</li>
+          <li>Splunk SIEM</li>
+          <li>et plus encore...</li>
+        </ul>
+        <Button text="Linkedin" link="https://www.linkedin.com/in/teddy-gal%C3%A9a-raveaud-37a157281/" />
+      </div>
+      <div
+        class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
+      >
+        <div class="relative z-50 w-full">
+          <div
+            class="absolute bottom-0 z-40 w-16 h-16 -translate-x-6 -translate-y-1/2 lg:top-auto top-0 lg:-translate-y-[330px] rounded-full"
+          >
+            </span>
+          </div>
+          <div class="relative z-30 px-10">
+            <img
+              src="/assets/images/photo.png"
+              loading="eager"
+              decoding="auto"
+              class="relative z-30 w-full aspect-[1100/1100] md:max-w-md mx-auto dark:-translate-y-4  rounded-full"
+            />
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <Separator text="Jetez un oeil à mes projets" />
+  <Projects />
+  <Separator text="Certifications" />
+  <Writings />
+</Layout>
