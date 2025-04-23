@@ -1,5 +1,6 @@
 ---
 import projects from "../collections/projects.json";
+import Button from "../components/button.astro";
 import PageHeading from "../components/page-heading.astro";
 import Project from "../components/projects.astro";
 import Layout from "../layouts/main.astro";
@@ -33,5 +34,9 @@ import Separator from "../components/home/separator.astro";
     <PageHeading
       title="Veille technologique"
       description="Vous trouverez ici les diverses ressources que j'utilise afin de me tenir informé des dernières tendances et nouveautés dans le domaine de la technologie."
-  </section>
+      />
+      <Button text="r/pentesting" link="https://www.reddit.com/r/Pentesting/" />
+      <Button text="r/netsec" link="https://www.reddit.com/r/netsec/" />
+      <Button text="r/cybersecurity" link="https://www.reddit.com/r/cybersecurity/" />
+    </section>
 </Layout>
