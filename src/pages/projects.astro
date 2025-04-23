@@ -1,7 +1,7 @@
 ---
 import projects from "../collections/projects.json";
 import PageHeading from "../components/page-heading.astro";
-import Project from "../components/project.astro";
+import Project from "../components/projects.astro";
 import Layout from "../layouts/main.astro";
 import Separator from "../components/home/separator.astro";
 ---
@@ -12,9 +12,6 @@ import Separator from "../components/home/separator.astro";
       title="Mes projets"
       description="Vous trouverez ici tous mes projets (Développement, Cybersécurité, autres...)"
     />
-
-    <Separator text="Veille technologique" />
-
 
     <div
       class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
@@ -32,5 +29,9 @@ import Separator from "../components/home/separator.astro";
         })
       }
     </div>
+    <Separator text="Veille technologique" />
+    <PageHeading
+      title="Veille technologique"
+      description="Vous trouverez ici les diverses ressources que j'utilise afin de me tenir informé des dernières tendances et nouveautés dans le domaine de la technologie."
   </section>
 </Layout>
